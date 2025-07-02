@@ -31,13 +31,13 @@ The response is bound to *Rule ID 87104*:
 - When it fires, remove-threat.sh scans the file with YARA
 - If a match occurs → the file is deleted 
 ##  Screenshots
+![Screenshot 2025-07-02 182454](https://github.com/user-attachments/assets/d153ae9b-a9b4-439d-b633-560d03a93428)
 - Successful match and deletion
 - False positive avoided
 - Real-time logs from /var/ossec/logs/active-responses.log
 
 ##  Why This Matters
 Traditional AV can miss obfuscated malware. This system gives defenders full control, speed, and transparency — especially useful in SOC environments or homelabs.
-![Screenshot 2025-07-02 182454](https://github.com/user-attachments/assets/d153ae9b-a9b4-439d-b633-560d03a93428)
 
 ---
 
